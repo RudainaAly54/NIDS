@@ -1,3 +1,15 @@
 /* src/fonts.css */
 @import "tailwindcss";
-@import "./theme.css";
+@import "src/theme.css";
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0.00;
+  background:black;
+  color: black;
+}
+
+select option {
+  background-color: #0d1117;
+  color: white;
+}

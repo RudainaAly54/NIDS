@@ -85,7 +85,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0f1e] text-white overflow-hidden ">
-      <NetworkBackground  className="absolute inset-0 z-0"/>
+      <NetworkBackground  className = "relative z-0" />
 
       <div className="relative z-10 p-6">
         {/* Header */}
@@ -119,9 +119,7 @@ export default function App() {
               )}
             </div>
           </div>
-          <p className="text-gray-400 text-sm font-mono ml-11">
-            Real-time traffic classification using SVM • Accuracy: 97.4%
-          </p>
+        
 
           {/* Stats Bar */}
           <div className="mt-4 grid grid-cols-3 gap-4">
@@ -326,7 +324,7 @@ export default function App() {
             <div className="mt-4 p-3 bg-purple-500/10 border border-purple-500/30 rounded-lg">
               <div className="text-xs text-purple-300 font-mono flex items-center gap-2">
                 <Shield className="w-3 h-3" />
-                Using 8 key features for SVM classification
+                Using AI to predict if the connection is normal or an attack, and identify the attack type if applicable.
               </div>
             </div>
           </motion.div>

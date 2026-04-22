@@ -3,7 +3,7 @@ import { Shield, AlertTriangle } from "lucide-react";
 
 const ActivityLog = ({newEntry}) => {
     const [logs, setLogs]  = useState([
-           {
+    /*        {
       id: 1,
       timestamp: new Date(Date.now() - 120000).toLocaleTimeString(),
       status: 'normal',
@@ -21,7 +21,7 @@ const ActivityLog = ({newEntry}) => {
       timestamp: new Date(Date.now() - 60000).toLocaleTimeString(),
       status: 'normal',
       ip: '172.16.0.12'
-    },
+    }, */
     ]);
 
     useEffect(()=> {

@@ -88,7 +88,7 @@ const generateMockPredictionData = (data) => {
 export const predictConnection = async (data) => {
     if(USE_MOCK_DATA) {
         console.log('Using mock prediction (backend not connected)');
-        await new Promise(resolve => setTimeout(resolve, 1500 +Math.randmom() * 500));
+        await new Promise(resolve => setTimeout(resolve, 500 +Math.random() * 500));
         return generateMockPredictionData(data);
     }
     try {
