@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Shield, Activity, AlertTriangle, Wifi, WifiOff } from 'lucide-react';
-import  NetworkBackground  from './pages/NetworkBackground';
-import  NetworkGraph from './pages/NetworkGraph';
-import  ActivityLog  from './pages/ActivityLog';
+import  NetworkBackground  from './components/NetworkBackground';
+import  NetworkGraph from './components/NetworkGraph';
+import  ActivityLog  from './components/ActivityLog';
 import { predictConnection, getModelStatus } from "./data/api";
 
 export default function App() {
