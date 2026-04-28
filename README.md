@@ -10,7 +10,7 @@ A real-time network intrusion detection dashboard built with React + Vite. Analy
 
 **Dashboard — Attack Detected (Probe, 82.6% confidence)**
 
-![Attack Detected](public/analysis_dashboard.png)
+![Attack Detected](<analysis dahboard 1.png>)
 
 ## 🚀 Getting Started
 
