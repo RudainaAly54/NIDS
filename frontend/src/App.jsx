@@ -98,23 +98,7 @@ export default function App() {
                 Network Intrusion Detection System
               </h1>
             </div>
-            <div className={`flex items-center gap-2 px-4 py-2 rounded-lg border ${
-              modelOnline
-                ? 'bg-emerald-500/10 border-emerald-500/30'
-                : 'bg-orange-500/10 border-orange-500/30'
-            }`}>
-              {modelOnline ? (
-                <>
-                  <Wifi className="w-4 h-4 text-emerald-400 animate-pulse" />
-                  <span className="text-sm text-emerald-400 font-mono">Model Online</span>
-                </>
-              ) : (
-                <>
-                  <WifiOff className="w-4 h-4 text-orange-400" />
-                  <span className="text-sm text-orange-400 font-mono">Mock Mode</span>
-                </>
-              )}
-            </div>
+   
           </div>
 
           {/* Stats Bar */}
